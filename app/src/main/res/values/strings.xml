@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ConsumoCombustivel</string>
+    <string name="kml">Média em km/l do consumo de combustível</string>
+    <string name="qtTanque">Quantidade de litros no tanque</string>
+    <string name="metros">O carro irá percorrer:</string>
+    <string name="calcular">Calcular</string>
+</resources>
