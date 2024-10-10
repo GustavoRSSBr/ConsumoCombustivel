@@ -19,7 +19,6 @@ import androidx.core.view.WindowInsetsCompat;
 public class MainActivity extends AppCompatActivity {
     private EditText etConsumo;
     private EditText etTanque;
-    private Button btnCalcular;
     private TextView tvRes;
 
 
@@ -38,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         etConsumo.setTextAlignment(View.TEXT_ALIGNMENT_CENTER);
         etTanque = findViewById(R.id.etTanque);
         etTanque.setTextAlignment(View.TEXT_ALIGNMENT_CENTER);
-        btnCalcular = findViewById(R.id.btnCalcular);
+        Button btnCalcular = findViewById(R.id.btnCalcular);
         btnCalcular.setTextAlignment(View.TEXT_ALIGNMENT_CENTER);
         tvRes = findViewById(R.id.tvRes);
         tvRes.setTextAlignment(View.TEXT_ALIGNMENT_CENTER);
